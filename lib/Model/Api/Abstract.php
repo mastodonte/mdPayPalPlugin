@@ -53,7 +53,7 @@ abstract class Md_Api_Abstract
      */
     public function getUseProxy()
     {
-        return $sfConfig::get('app_paypal_USE_PROXY', false);
+        return sfConfig::get('app_paypal_USE_PROXY', false);
     }
 
     /**
